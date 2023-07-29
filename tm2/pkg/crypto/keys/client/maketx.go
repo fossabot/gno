@@ -36,6 +36,7 @@ func newMakeTxCmd(rootCfg *baseCfg) *commands.Command {
 		newAddPkgCmd(cfg),
 		newSendCmd(cfg),
 		newCallCmd(cfg),
+		newExecCmd(cfg),
 	)
 
 	return cmd
