@@ -13,7 +13,7 @@ build.gnoweb:;     go build -o build/gnoweb    ./cmd/gnoweb
 build.gnofaucet:;  go build -o build/gnofaucet ./cmd/gnofaucet
 build.gnokey:;     go build -o build/gnokey    ./cmd/gnokey
 
-run.gnoland:;  go run ./cmd/gnoland
+run.gnoland:;  go run ./cmd/gnoland start
 run.gnoweb:;  go run ./cmd/gnoweb
 
 .PHONY: install
